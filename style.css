@@ -46,14 +46,14 @@ body {
 .donate-section {
           text-align: center;
           padding-top: 3%;
-          margin-bottom: 5%;
+
 }
 
 .donate-text-part h1 {
           font-size: 40px;
 }
 
-.donate-text-part p {
+.donate-paragraph {
           font-size: 18px;
           padding-left: 10%;
           padding-right: 10%;
@@ -88,4 +88,51 @@ h4 {
           margin-left: 30%;
           margin-right: 30%;
           margin-bottom: 2%;
+}
+
+.donation-plan-section {
+          padding: 5%;
+          text-align: center;
+
+}
+
+#donation-plan-heading {
+          font-size: 40px;
+
+
+}
+
+.donation-plan-part {
+          display: flex;
+          padding-top: 5%;
+
+
+}
+
+#food-part {
+          background-color: rgb(192, 248, 248);
+          border-radius: 10px;
+          box-shadow: 8px 10px 25px rgb(48, 51, 54);
+          padding-top: 5%;
+          margin-left: 5%;
+
+}
+
+#shelter-part {
+          background-color: rgb(228, 171, 150);
+          border-radius: 10px;
+          box-shadow: 8px 10px 25px rgb(48, 51, 54);
+          padding-top: 5%;
+          margin-left: 5%;
+
+}
+
+#education-part {
+          background-color: rgb(238, 151, 101);
+          border-radius: 10px;
+          box-shadow: 8px 10px 25px rgb(48, 51, 54);
+          padding-top: 5%;
+          margin-left: 5%;
+
+
 }
