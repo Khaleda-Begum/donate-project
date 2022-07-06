@@ -23,10 +23,11 @@ body {
 }
 
 .top-section p {
-          font-size: 16px;
+          font-size: 18px;
           color: white;
           padding-left: 10%;
           padding-right: 10%;
+          margin-bottom: 2%;
 
 }
 
@@ -39,4 +40,52 @@ body {
           border-radius: 10px;
           text-align: center;
 
+
+}
+
+.donate-section {
+          text-align: center;
+          padding-top: 3%;
+          margin-bottom: 5%;
+}
+
+.donate-text-part h1 {
+          font-size: 40px;
+}
+
+.donate-text-part p {
+          font-size: 18px;
+          padding-left: 10%;
+          padding-right: 10%;
+}
+
+.donate-amount {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 10%;
+          margin-right: 10%;
+
+}
+
+h4 {
+          background-color: rgb(204, 205, 207);
+          border-radius: 5px;
+          padding: 4%;
+          margin-left: 5%;
+          font-size: 28px;
+          color: rgb(32, 30, 30);
+          font-weight: bold;
+
+}
+
+.amount-taka {
+          font-size: 22px;
+          color: rgb(97, 93, 93);
+}
+
+.horizontal-line {
+          margin-left: 30%;
+          margin-right: 30%;
+          margin-bottom: 2%;
 }
